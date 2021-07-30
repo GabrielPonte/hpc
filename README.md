@@ -1,1 +1,1 @@
-# Repository for high performance computing classes
+Repository for high performance computing classes
