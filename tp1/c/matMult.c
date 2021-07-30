@@ -43,10 +43,10 @@ int main(int argc, char *argv[])
 
         start = clock();
         for (long long i = 0; i < n; i++){
-            double s = 0;
+            double sum = 0;
             for (long long j = 0; j < n; j++)
-                s += A[i][j] * x[j];
-            b[i] = s;
+                sum += A[i][j] * x[j];
+            b[i] = sum;
         }
         end = clock();
 
