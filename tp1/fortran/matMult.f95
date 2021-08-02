@@ -22,7 +22,7 @@ program matMult
     allocate(b(n))
 
     ! Random seed to generate pseudorandom matrices
-    ! call random_seed()
+    call random_seed()
 
     call random_number(A)
     call random_number(x)
