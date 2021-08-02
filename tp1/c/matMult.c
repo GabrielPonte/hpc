@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
         }
         end = clock();
 
-    }else{ // external_
+    }else{ // external_j
          start = clock();
         for (long long i = 0; i < n; i++){
             b[i] = 0;
